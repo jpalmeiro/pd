@@ -18,7 +18,7 @@ A queue manager is a program that supplies an application with WebSphere MQ serv
 
 More details [here](https://drive.google.com/open?id=0B4vgoY1-SaY9RnVqM0dsM2pNeHM).
 
-More details [here 2](https://github.com/jpalmeiro/pd/blob/master/ActivityManager_L2ComponentDesign.md).
+More details [here 2](https://github.com/jpalmeiro/pd/blob/master/ActivityManager_L2ComponentDesign.md){:height="140px" width="140px"}.
 
 
 First Header | Second Header
