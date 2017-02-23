@@ -32,15 +32,15 @@ A queue manager cluster represents a group of queue managers that make the queue
 2.	a cluster-sender channel with which it introduces itself and learns about the cluster.
 To support cluster administration, two queue managers in the environment must be designated as Full Repository queue managers.  All cluster administration is managed by these queue managers.  It is recommended best practice to have two queue managers whose sole role is to be the Full Repositories for all clusters within the environment. 
 
-### Message broker
+#### Message broker
 IBM WebSphere Message Broker connects applications, consumers, and providers together regardless of the message formats or protocols that they support. This connectivity means that diverse applications can interact and exchange data with other applications in a flexible, dynamic, and extensible infrastructure. Each broker instance may route, transform, and enrich messages using a range of protocols, including WebSphere MQ, JMS 1.1, HTTP and HTTPS, Web Services (SOAP and REST), File, Enterprise Information Systems (including SAP and Siebel), and TCP/IP.
 Message broker instances are deployed onto MQ queue managers and rely on MQ for message transport.
 
-###	WebSphere DataPower XI52 appliance
+####	WebSphere DataPower XI52 appliance
 DataPower XI52 XML Integration appliances are part of a family of purpose-built, quickly-deployed network devices that simplify, help secure, and accelerate XML and Web Services deployments while extending SOA infrastructure.  
 
-###	WebSphere Service Registry and Repository (WSRR)
+####	WebSphere Service Registry and Repository (WSRR)
 WSRR is a service registry and service life cycle management tool.  It provides functionality to store and retrieve service metadata, such as WSDL,  XSD,  SCA Modules, and Policy documents.  These artifacts can be loaded and parsed into separate entities. For example, with a WSDL document, separate entities are created for service, binding, and portType. XML and binary documents can be loaded as single entities. Entities in the registry can be managed using a defined life cycle process to provide service governance. 
 
-###	Security
+####	Security
 All Modernization Infrastructure MQ queue managers and Message Broker instances reside in Z06 Production. Support for Z04 Intranet MQ and/or JMS clients will be addressed in the Micro Design Transition Plan. MQ Internet Pass-Thru (MQIPT) in the Z08 Management zone provides a proxy to support administrative access from the Z04 Intranet zone.  Both MQ and Message Broker report system management events, and backup configuration data, to the Tivoli infrastructure located in Z08 Management. 
