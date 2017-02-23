@@ -7,7 +7,9 @@
 ###Architectural Overview Diagram
 This diagram depicts the WebSphere MQ and Message Broker components within the context of XXXXX’s Modernization Infrastructure ESB.  The design and rationale for this federated hybrid ESB is detailed in XXXXX Enterprise Architectural Decision AD-110 - Enterprise Service Bus.
 
-![Production ESB Architectural Overview Diagram](https://www.leveragingtechnology.com/wp-content/uploads/2016/03/API-Connect-and-IIB_InterConnect-presentation-6.jpg)
+![ESB Architectural Overview Diagram](https://www.leveragingtechnology.com/wp-content/uploads/2016/03/API-Connect-and-IIB_InterConnect-presentation-6.jpg)
+
+![Production ESB Architectural Overview Diagram](/images/image002.gif)
 
 ### Subcomponents 
 
