@@ -9,7 +9,12 @@ This diagram depicts the WebSphere MQ and Message Broker components within the c
 
 ![ESB Architectural Overview Diagram](https://www.leveragingtechnology.com/wp-content/uploads/2016/03/API-Connect-and-IIB_InterConnect-presentation-6.jpg)
 
+![E](/images/ETHERDesignPackage_ComponentDiagram.jpg)
+
 <img src="/images/image002.gif" width="400" height="400" />
+
+
+<img src="/images/ETHERDesignPackage_ComponentDiagram.jpg" />
 
 ### Subcomponents 
 
